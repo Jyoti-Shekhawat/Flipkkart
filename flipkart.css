@@ -1,0 +1,397 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(227, 223, 223);
+}
+
+input{
+    outline: none;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+/* Nav- bar */
+.nav-bar{
+    height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 100%;
+    
+
+  
+}
+.flipkart-logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(Flipkart-logo.png);
+    background-size: cover;
+    margin-left: 30px;
+
+   
+}
+
+.nav-bar button{
+    height: 48px;
+    width: 50px;
+    margin-left: 40px;
+    font-size: larger;
+    background-color:rgb(228, 255, 246);
+    border: none;
+    
+}
+
+
+.search-field{
+    height: 48px;
+    width: 780px;
+    border:0;
+    background-color: rgb(228, 255, 246);
+    margin-right: 50px;
+   
+}
+
+
+
+.sign{
+    margin-left: 40px;
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7%;
+    
+
+}
+
+.sign i{
+    font-size: large;
+}
+
+
+.cart{
+ display: flex;
+ margin-left: 40px;
+ height: 48px;
+width: 70px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+ 
+
+}
+
+.cart{
+    margin-left: 40px;
+}
+.cart a{
+    text-decoration: none;
+}
+
+.cart i{
+    font-size: larger;
+}
+
+.help{
+    margin-left: 40px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.dropdown{
+    position: absolute;
+    background-color:rgb(228, 255, 246);
+    margin-top: 10px;
+    
+}
+
+.dropdown li{
+    padding: 15px;
+
+}
+
+.sign i{
+    padding-right: 5px;
+}
+
+.new-user{
+    border-bottom: gray 1px solid;
+    
+}
+
+.dropdown{
+    display: none;
+}
+
+.sign ul li:hover{
+    background-color: rgb(228, 255, 246);
+}
+
+.sign-in:hover .dropdown {
+    display: block;
+}
+
+.sign-in{
+    padding: 10px;
+}
+
+/* panel */
+
+.panel{
+    height: 90px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:end;
+    padding-bottom: 10px;
+    
+}
+
+.offer-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(offer.png);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+
+.mobile-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(mobile.jfif);
+    background-size: cover;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.electronics-img{
+    height: 50px;
+    width: 70px;
+    background-image: url(appliences.jfif);
+    background-size: cover;
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+
+}
+
+.Fashion-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(Fashion.jfif);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  
+    
+}
+
+
+.beauty-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(beauty.jfif);
+    background-size: cover;
+    margin-bottom: 10px;
+  
+}
+
+.home-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(kitchen.jfif);
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.furniture-img{
+    height: 50px;
+    width: 70px;
+    background-image: url(chir.webp);
+    background-size: cover;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.flight-img{
+    height: 50px;
+    width: 70px;
+    background-image: url(flight2.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    
+}
+
+.grocery-img{
+    height: 50px;
+    width: 50px;
+    background-image: url(grocery.jfif);
+    background-size: cover;
+    margin-bottom: 10px;
+   
+}
+
+/* hero- section */
+
+.hero-section{
+    height: 250px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:end;
+    padding-bottom: 10px;
+    background-image: url(hero-section.webp);
+}
+
+.axis-bank{
+    height: 90px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:end;
+    padding-bottom: 10px;
+    background-image: url(axix\ bank\ disscount.webp);
+}
+
+.top-offers{
+    
+        height: 400px;
+        background-color: white;
+        margin: 15px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:end;
+        padding-bottom: 10px;
+       
+    
+}
+
+.div{
+    height: 90%;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.image{
+    height:90%;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.sari-image{
+    background-image: url(sari\ 5.webp);
+    background-size: cover;
+}
+
+.watches-image{
+    background-image: url(watches3.avif);
+    background-size: cover;
+}
+
+.shoes-image{
+    background-image: url(shoes.avif);
+    background-size: cover;
+}
+
+.girls-image{
+    background-image: url(girls\ fashion.jpg);
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* Footer */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(27, 27, 27);
+    display: flex;
+    color: white;
+    border-bottom: 1px solid white;
+   
+}
+
+.footer-content a{
+    height: 90%;
+    width: 23%;
+    color: white;
+    padding-left: 10px;
+    
+    
+    
+}
+
+h4{
+    color:gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer li{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.footer-content{
+    margin:40px;
+}
+
+
+/* footer2 */
+
+.footer2{
+    height: 60px;
+    background-color:rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer2 ul li{
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: 20px ;
+    
+}
+
+.footer2 ul li a{
+    color:rgb(222, 209, 209);
+}
+
+.footer2 i{
+    padding-right: 10px;
+    color: white;
+}
